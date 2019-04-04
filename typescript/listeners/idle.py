@@ -191,6 +191,7 @@ class IdleListener:
             cli.service.async_document_highlights(view.file_name(), location, self.highlight_occurrences)
 
     def highlight_occurrences(self, response):
+        return ##~ don't auto-highlight matches of token under cursor
         view = active_view()
         if not view.file_name():
             return

@@ -1,0 +1,5 @@
+- Disable red line highlight on unclosed quotes
+- Don't auto-show function info popup (when '(' is pressed)
+- Don't highlight matches of token under cursor
+- Minimal snippets
+- Remove noisy logging

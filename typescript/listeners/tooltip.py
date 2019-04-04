@@ -38,7 +38,7 @@ class TooltipEventListener:
     def on_query_context(self, view, key, operator, operand, match_all):
         if key == 'is_popup_visible' and TOOLTIP_SUPPORT:
             return view.is_popup_visible()
-        if key == 'paren_pressed':
+        if False: ##~ key == 'paren_pressed':  # don't auto show function info popup
             # Dummy check we never intercept, used as a notification paren was
             # pressed.  Used to automatically display signature help.
             self.was_paren_pressed = True

@@ -101,6 +101,7 @@
             { "key": "selector", "operator": "equal", "operand": "source.ts, source.tsx, source.js, source.jsx" }
         ]
     },
+/*
     {
         "keys": ["("],
         "command": "typescript_signature_popup",
@@ -136,6 +137,7 @@
 
         ]
     },
+*/
     {
         "keys": [ "enter" ],
         "command": "typescript_go_to_ref",
@@ -161,7 +163,8 @@
             { "key": "following_text", "operator": "regex_contains", "operand": "^\\}" },
             { "key": "selector", "operator": "equal", "operand": "source.ts, source.tsx, source.js, source.jsx" }
         ]
-    },
+    }
+/*
     {
         "keys": [ "ctrl+;" ],
         "command": "typescript_format_line",
@@ -176,4 +179,5 @@
             { "key": "selector", "operator": "equal", "operand": "source.ts, source.tsx, source.js, source.jsx" }
         ]
     }
+*/
 ]

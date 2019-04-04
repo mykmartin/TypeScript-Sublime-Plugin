@@ -7912,11 +7912,11 @@
             <key>name</key>
             <string>punctuation.definition.string.end.ts</string>
           </dict>
-          <key>2</key>
+          <!-- <key>2</key>  disable annoying red highlight on unclosed quotes
           <dict>
             <key>name</key>
             <string>invalid.illegal.newline.ts</string>
-          </dict>
+          </dict> -->
         </dict>
         <key>patterns</key>
         <array>
@@ -7949,11 +7949,11 @@
             <key>name</key>
             <string>punctuation.definition.string.end.ts</string>
           </dict>
-          <key>2</key>
+          <!-- <key>2</key>
           <dict>
             <key>name</key>
             <string>invalid.illegal.newline.ts</string>
-          </dict>
+          </dict> -->
         </dict>
         <key>patterns</key>
         <array>
